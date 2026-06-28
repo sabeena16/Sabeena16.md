@@ -70,3 +70,24 @@ Many students and job seekers create resumes without knowing whether their skill
 
 ## Expected Outcome
 The system will analyze uploaded resumes, identify candidate skills, generate a resume score, and provide recommendations to improve resume quality and job readiness.
+## Project Structure
+
+```text
+AI-Resume-Analyzer/
+│
+├── app.py
+├── resume_parser.py
+├── skill_matcher.py
+├── recommender.py
+├── utils.py
+├── requirements.txt
+├── README.md
+│
+├── templates/
+│   ├── index.html
+│   └── result.html
+│
+├── static/
+│   └── css/
+│       └── style.css
+```
